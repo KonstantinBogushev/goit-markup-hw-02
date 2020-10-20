@@ -7,11 +7,12 @@ html {
   box-sizing: inherit;
 }
 
-a {
-  text-decoration: none;
-}
-
-button {
+.link,
+.header-contacts,
+.btm-one,
+.contacts-adress,
+.portfolio-btn,
+.contacts-footer {
   text-decoration: none;
 }
 
