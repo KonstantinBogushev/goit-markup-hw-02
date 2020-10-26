@@ -14,11 +14,13 @@
   <body id="start">
     <!--header-->
     <header class="header">
-      <a class="link" href="#start"
+      <div class="container header-container ">
+      
+        <a class="link" href="#start"
         ><h1 class="logo"><span class="logo-web">Web</span>Studio</h1>
       </a>
       <nav>
-        <ul >
+        <ul class="header-list" >
           <li class="header-nav"><a class="link" href="#studio">Студия</a></li>
           <li class="header-nav"><a class="link" href="./portfolio.html">Портфолио</a></li>
           <li class="header-nav"><a class="link" href="">Контакты</a></li>
@@ -26,14 +28,20 @@
       </nav>
       <a class="header-contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
       <a class="header-contacts" href="tel:+380961111111">+38 096 111 11 11</a>
+    </div>
     </header>
     <!--section 1-->
     <section class="section-one">
-      <h2 class="section-one-h">Эффективные решения для вашего бизнеса</h2>
-      <button class="btm-one" type="button"><span class="btm-one-text">Заказать услугу</span></button>
+      <div class="container hero">
+        <div class="hero-content">
+        <h2 class="section-one-h">Эффективные решения для вашего бизнеса</h2>
+        <button class="btm-one" type="button"><span class="btm-one-text">Заказать услугу</span></button>
+        </div>
+      </div>
     </section>
     <!--section 2-->
     <section class="section-two">
+      <div class="container">
       <ul>
         <li>
           <h2 class="section-two-h">Внимание к деталям</h2>
@@ -64,9 +72,11 @@
           </p>
         </li>
       </ul>
+      </div>
     </section>
     <!--section three-->
     <section class="section-three">
+      <div class="container">
       <h2 class="section-three-h">Чем мы занимаемся</h2>
       <ul>
         <li>
@@ -84,9 +94,11 @@
           <img src="image/img2.png" alt="стилизация" width="370" height="294" />
         </li>
       </ul>
+      </div>
     </section>
     <!--section comand-->
     <section class="comand">
+      <div class="container">
       <h2 class="section-three-h">Наша команда</h2>
       <ul>
         <li>
@@ -110,15 +122,18 @@
           <p class="comand-prof" lang="en">UI Designer</p>
         </li>
       </ul>
+      </div>
     </section>
     <!--contacts-->
     <footer class="contacts">
+      <div class="container">
       <a  class="link" href="#start">
         <h1 class="logo-footer"><span class="logo-web">Web</span>Studio</h1>
       </a>
       <a  class="contacts-adress" href="">г. Киев, пр-т Леси Украинки, 26</a>
       <a class="contacts-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
       <a class="contacts-footer" href="tel:+380961111111">+38 096 111 11 11</a>
+      </div>
     </footer>
   </body>
 </html>
