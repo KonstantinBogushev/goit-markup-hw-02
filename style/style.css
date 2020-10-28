@@ -6,6 +6,7 @@
   --adress-footer: rgba(255, 255, 255, 0.6);
   --bcg-color: #2f303a;
   --bcg-btn: #f5f4fa;
+  --border-header: #ececec;
 }
 
 html {
@@ -26,9 +27,12 @@ html {
   text-decoration: none;
 }
 
-h1,
-h2,
-h3 {
+.logo,
+.section-one-h,
+.section-two-h,
+.section-three-h,
+.logo-footer,
+.portfolio-h {
   margin-top: 0px;
 }
 body {
@@ -38,10 +42,11 @@ body {
   font-size: 14px;
   line-height: 1.714;
   color: var(--gray);
+  width: 1600px;
 }
 
 .container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
@@ -61,8 +66,8 @@ img {
 
 .logo {
   margin-right: 93px;
-  margin-top: 24px;
-  margin-bottom: 25px;
+  margin-top: 18px;
+  margin-bottom: 18px;
   text-decoration: none;
   font-weight: bold;
   font-family: Raleway;
@@ -120,8 +125,16 @@ img {
   color: var(--gray);
 }
 
+.header-contacts:not(:last-child) {
+  margin-right: 50px;
+}
+
 .header-contacts:hover {
   color: var(--blue);
+}
+
+.header-portfolio {
+  border-bottom: 1px solid var(--border-header);
 }
 
 .section-one {
@@ -155,6 +168,9 @@ img {
   display: flex;
   margin-left: auto;
   margin-right: auto;
+  padding: 0;
+  width: 200px;
+  height: 50px;
 }
 
 .btm-one-text {
@@ -163,7 +179,7 @@ img {
   line-height: 1.875;
   letter-spacing: 0.06em;
   color: var(--white);
-  margin: 10px 32px;
+  margin: auto;
 }
 
 .item-text {
@@ -193,6 +209,7 @@ img {
 }
 
 .skils-table {
+  padding-left: 0;
   list-style: none;
   display: flex;
   justify-content: center;
@@ -200,7 +217,7 @@ img {
 }
 
 .skils-item {
-  width: 300px;
+  width: 370px;
 }
 
 .skils-item:not(:last-child) {
@@ -297,10 +314,13 @@ img {
 }
 
 .portfolio-btn {
+  display: flex;
   background-color: var(--bcg-btn);
   border-radius: 4px;
   display: inline-block;
   padding: 6px 22px;
+  border: 0px;
+  height: 38px;
 }
 
 .portfolio-btn:not(:last-child) {
@@ -347,6 +367,7 @@ img {
   color: var(--gray);
   margin-left: 24px;
   margin-bottom: 20px;
+  margin-top: 4px;
 }
 
 .portfolio-table {
