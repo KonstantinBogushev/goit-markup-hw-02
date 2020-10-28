@@ -111,7 +111,7 @@ img {
   margin-left: auto;
 }
 
-.header-nav:hover {
+.link:hover {
   color: var(--blue);
 }
 
