@@ -42,7 +42,6 @@ body {
   font-size: 14px;
   line-height: 1.714;
   color: var(--gray);
-  width: 1600px;
 }
 
 .container {
@@ -109,6 +108,10 @@ img {
 
 .adress {
   margin-left: auto;
+}
+
+.link {
+  color: var(--black);
 }
 
 .link:hover {
@@ -186,6 +189,7 @@ img {
   list-style: none;
   margin-top: 94px;
   margin-bottom: 94px;
+  padding-left: 0;
 }
 
 .item-content {
@@ -242,6 +246,7 @@ img {
 .comand-table {
   list-style: none;
   display: flex;
+  padding-left: 0;
 }
 
 .comand-item {
