@@ -79,11 +79,13 @@ img {
 }
 
 .logo-footer {
+  font-size: 26px;
   color: var(--white);
   text-decoration: none;
   font-weight: bold;
   font-family: Raleway;
   margin-bottom: 20px;
+  line-height: normal;
 }
 
 .header-list {
@@ -174,6 +176,7 @@ img {
   padding: 0;
   width: 200px;
   height: 50px;
+  border: none;
 }
 
 .btm-one-text {
@@ -247,6 +250,7 @@ img {
   list-style: none;
   display: flex;
   padding-left: 0;
+  margin: 0;
 }
 
 .comand-item {
