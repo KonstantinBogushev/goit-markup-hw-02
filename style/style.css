@@ -341,7 +341,6 @@ img {
   justify-content: center;
 }
 
-
 .portfolio-btn-text {
   font-weight: 500;
   font-size: 16px;
@@ -351,13 +350,14 @@ img {
   color: var(--black);
 }
 
-.portfolio-btn-text:hover {
-  color: var(--white);
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--blue);
 }
 
-.portfolio-btn:hover {
-  background-color: var(--blue);
-  content: var(--white);
+.portfolio-btn:hover .portfolio-btn-text,
+.portfolio-btn:focus .portfolio-btn-text {
+  color: var(--white);
 }
 
 .portfolio-h {
