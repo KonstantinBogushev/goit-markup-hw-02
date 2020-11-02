@@ -341,6 +341,7 @@ img {
   justify-content: center;
 }
 
+
 .portfolio-btn-text {
   font-weight: 500;
   font-size: 16px;
@@ -356,6 +357,7 @@ img {
 
 .portfolio-btn:hover {
   background-color: var(--blue);
+  content: var(--white);
 }
 
 .portfolio-h {
